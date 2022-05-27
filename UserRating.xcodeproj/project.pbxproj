@@ -13,6 +13,15 @@
 		99BC21CE283E04ED003F58F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BC21CC283E04ED003F58F3 /* Main.storyboard */; };
 		99BC21D0283E04EE003F58F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99BC21CF283E04EE003F58F3 /* Assets.xcassets */; };
 		99BC21D3283E04EE003F58F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99BC21D1283E04EE003F58F3 /* LaunchScreen.storyboard */; };
+		99BC21E8283E885C003F58F3 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC21E7283E885C003F58F3 /* Repository.swift */; };
+		99BC21EA283E9158003F58F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BC21E9283E9158003F58F3 /* User.swift */; };
+		F7133E69283FA89200B0088D /* HistoryCollectionViewCellProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7133E68283FA89200B0088D /* HistoryCollectionViewCellProperty.swift */; };
+		F7393542283F4AD60087934A /* RepositoryStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7393541283F4AD60087934A /* RepositoryStruct.swift */; };
+		F7393544283F81640087934A /* HitstoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7393543283F81640087934A /* HitstoryCollectionViewCell.swift */; };
+		F7393546283F8D690087934A /* StarCustomVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7393545283F8D690087934A /* StarCustomVIew.swift */; };
+		F7393548283F8D9A0087934A /* StarCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7393547283F8D9A0087934A /* StarCustomView.xib */; };
+		F739354D283F8E220087934A /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F739354C283F8E220087934A /* HistoryViewController.swift */; };
+		F751C88F283F2750003C63DC /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F751C88E283F2750003C63DC /* MainCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		99BC21CF283E04EE003F58F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99BC21D2283E04EE003F58F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99BC21D4283E04EE003F58F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BC21E7283E885C003F58F3 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		99BC21E9283E9158003F58F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F7133E68283FA89200B0088D /* HistoryCollectionViewCellProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCollectionViewCellProperty.swift; sourceTree = "<group>"; };
+		F7393541283F4AD60087934A /* RepositoryStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryStruct.swift; sourceTree = "<group>"; };
+		F7393543283F81640087934A /* HitstoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitstoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		F7393545283F8D690087934A /* StarCustomVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCustomVIew.swift; sourceTree = "<group>"; };
+		F7393547283F8D9A0087934A /* StarCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarCustomView.xib; sourceTree = "<group>"; };
+		F739354C283F8E220087934A /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F751C88E283F2750003C63DC /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,48 @@
 		99BC21C5283E04ED003F58F3 /* UserRating */ = {
 			isa = PBXGroup;
 			children = (
+				99BC21CC283E04ED003F58F3 /* Main.storyboard */,
+				F739354F283F8E820087934A /* MainCollectionView */,
+				F739354E283F8E570087934A /* HistoryCollectionView */,
+				F7393549283F8DB60087934A /* StarCustomVIew */,
+				F7133E68283FA89200B0088D /* HistoryCollectionViewCellProperty.swift */,
+				F7393541283F4AD60087934A /* RepositoryStruct.swift */,
+				99BC21E7283E885C003F58F3 /* Repository.swift */,
+				99BC21E9283E9158003F58F3 /* User.swift */,
 				99BC21C6283E04ED003F58F3 /* AppDelegate.swift */,
 				99BC21C8283E04ED003F58F3 /* SceneDelegate.swift */,
-				99BC21CA283E04ED003F58F3 /* ViewController.swift */,
-				99BC21CC283E04ED003F58F3 /* Main.storyboard */,
 				99BC21CF283E04EE003F58F3 /* Assets.xcassets */,
 				99BC21D1283E04EE003F58F3 /* LaunchScreen.storyboard */,
 				99BC21D4283E04EE003F58F3 /* Info.plist */,
 			);
 			path = UserRating;
+			sourceTree = "<group>";
+		};
+		F7393549283F8DB60087934A /* StarCustomVIew */ = {
+			isa = PBXGroup;
+			children = (
+				F7393545283F8D690087934A /* StarCustomVIew.swift */,
+				F7393547283F8D9A0087934A /* StarCustomView.xib */,
+			);
+			path = StarCustomVIew;
+			sourceTree = "<group>";
+		};
+		F739354E283F8E570087934A /* HistoryCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F739354C283F8E220087934A /* HistoryViewController.swift */,
+				F7393543283F81640087934A /* HitstoryCollectionViewCell.swift */,
+			);
+			path = HistoryCollectionView;
+			sourceTree = "<group>";
+		};
+		F739354F283F8E820087934A /* MainCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				99BC21CA283E04ED003F58F3 /* ViewController.swift */,
+				F751C88E283F2750003C63DC /* MainCollectionViewCell.swift */,
+			);
+			path = MainCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +179,7 @@
 				99BC21D3283E04EE003F58F3 /* LaunchScreen.storyboard in Resources */,
 				99BC21D0283E04EE003F58F3 /* Assets.xcassets in Resources */,
 				99BC21CE283E04ED003F58F3 /* Main.storyboard in Resources */,
+				F7393548283F8D9A0087934A /* StarCustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +191,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				99BC21CB283E04ED003F58F3 /* ViewController.swift in Sources */,
+				F751C88F283F2750003C63DC /* MainCollectionViewCell.swift in Sources */,
 				99BC21C7283E04ED003F58F3 /* AppDelegate.swift in Sources */,
+				F739354D283F8E220087934A /* HistoryViewController.swift in Sources */,
+				F7393544283F81640087934A /* HitstoryCollectionViewCell.swift in Sources */,
 				99BC21C9283E04ED003F58F3 /* SceneDelegate.swift in Sources */,
+				F7393546283F8D690087934A /* StarCustomVIew.swift in Sources */,
+				99BC21EA283E9158003F58F3 /* User.swift in Sources */,
+				99BC21E8283E885C003F58F3 /* Repository.swift in Sources */,
+				F7133E69283FA89200B0088D /* HistoryCollectionViewCellProperty.swift in Sources */,
+				F7393542283F4AD60087934A /* RepositoryStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
